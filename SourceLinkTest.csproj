@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.1.2" PrivateAssets="All" /> 
+  </ItemGroup>
+
+  <ItemGroup>
+<DotNetCliToolReference Include="dotnet-sourcelink" Version="2.1.2" />
+</ItemGroup>
+</Project>
